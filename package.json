@@ -1,0 +1,59 @@
+{
+    "name": "generator-angularjs",
+    "version": "1.0.0",
+    "description": "A generator for AngularJS apps",
+
+    "keywords": [
+        "yeoman-generator",
+        "angularjs-generator",
+        "angular",
+        "angularjs",
+        "karma",
+        "amd",
+        "modules",
+        "require.js",
+        "r.js",
+        "mocha"
+    ],
+
+    "homepage": "https://github.com/slatkovic/generator-angularjs",
+    "bugs": "https://github.com/slatkovic/generator-angularjs/issues",
+
+    "author": {
+        "name": "Stipe Ivan Latkovic",
+        "email": "slatkovi@gmail.com",
+        "url": "https://github.com/slatkovic"
+    },
+
+    "main": "app/index.js",
+
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/slatkovic/generator-angularjs.git"
+    },
+
+    "scripts": {
+        "test": "mocha"
+    },
+
+    "dependencies": {
+        "yeoman-generator": "~0.14.0"
+    },
+
+    "devDependencies": {
+        "mocha": "~1.14.0"
+    },
+
+    "peerDependencies": {
+        "yo": ">=1.0.0"
+    },
+
+    "engines": {
+        "node": ">=0.8.0",
+        "npm": ">=1.2.10"
+    },
+
+    "licenses": [{
+        "type": "Unlicense"
+    }]
+}
